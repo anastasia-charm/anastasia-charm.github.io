@@ -1,0 +1,47 @@
+.whythrive{
+	position: relative;
+	height: 604px;
+	background-color: var(--marine-color);
+}
+
+.whythrive_container{
+	height: 100%;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: var(--white-color);
+}
+
+.blog-article_title{
+	margin-left: 150px;
+	margin-bottom: 80px;
+	font-weight: 400;
+	font-size: 36px;
+}
+
+.blog-article_descr {
+	font-weight: 300;
+	margin-left: 150px;
+	margin-bottom: 128px;
+	max-width: 41%;
+	font-size: 19px;
+	word-spacing: 4px;
+	line-height: 31px;
+}
+
+strong{
+	font-weight: 700;
+	font-size: 21px;
+	line-height: 35px;
+}
+
+.whythrive_images{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 36.4%;
+	background-image: url("../../img/whythriveimg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

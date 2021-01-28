@@ -1,0 +1,15 @@
+@media (max-width: 1200px) {
+	.first_left{
+		padding-left: 10px;
+	}
+
+	.programms_list {
+		grid-template-columns: repeat(3, minmax(380px, auto));
+	}
+
+	.know_container--right{
+		margin-right: 0;
+	}
+}
+
+

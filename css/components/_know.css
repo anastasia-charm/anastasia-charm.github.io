@@ -1,0 +1,61 @@
+.know{
+	min-height: 800px;
+}
+
+.know_container{
+	background-image: url("../../img/know.jpg");
+	background-repeat: no-repeat;
+	justify-content: flex-end;
+}
+
+.know_container--right{
+	max-width: 665px;
+	min-height: 800px;
+	margin-right: 158px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.know_title{
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.06em;
+	color: var(--text-color);
+	text-transform: uppercase;
+	padding-top: 65px;
+	padding-bottom: 220px;
+}
+
+.know_descr{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 58px;
+	color: var(--text-color);
+	padding-bottom: 135px;
+}
+
+.know_descr-link{
+	color: var(--marine-color);
+}
+
+.know_descr-link:hover{
+	color: var(--orange-accet-color);
+	transition: color 0.3s;
+}
+
+.btn_know{
+	width: 150px;
+	height: 50px;
+	padding-right: 3px;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+	color: var(--orange-color);
+	transition: color 0.3s;
+}
+
+.btn_know:hover{
+	color: var(--marine-accet-color);
+	transition: color 0.3s;
+}

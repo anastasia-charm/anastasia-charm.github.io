@@ -1,0 +1,18 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_variables.css";
+@import "_vendor.css";
+@import "_global.css";
+@import "_overall.css";
+
+@import "./components/_header.css";
+@import "./components/_first.css";
+@import "./components/_whythrive.css";
+@import "./components/_about.css";
+@import "./components/_help.css";
+@import "./components/_programms.css";
+@import "./components/_know.css";
+@import "./components/_ready.css";
+@import "./components/_footer.css";
+@import "_media.css";
+

@@ -1,0 +1,39 @@
+.programms{
+	min-height: 542px;
+}
+
+.programms_list{
+	grid-template-columns: repeat(3, minmax(480px, auto));
+	grid-template-rows: repeat(2, minmax(240px, auto));
+}
+
+.programms_item{
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 59px;
+	padding-left: 75px;
+}
+
+.programm_title{
+	font-weight: 500;
+	font-size: 28px;
+	letter-spacing: -0.03em;
+	color: var(--text-color);
+	margin-bottom: 29px;
+}
+
+.programm_descr{
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: -0.03em;
+	color: rgba(34, 53, 111, 0.5);
+	width: 71%;
+}
+
+
+
+
+
+
+
